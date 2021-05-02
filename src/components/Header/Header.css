@@ -1,0 +1,11 @@
+.header-container{
+    position:relative;
+    background:url(../../images/bg-image.jpg) no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:300px;
+}
+.header-info h1{
+ color:white;
+ text-transform:uppercase;
+}
