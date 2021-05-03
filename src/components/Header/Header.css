@@ -4,8 +4,14 @@
     background-size:cover;
     background-position:center;
     height:300px;
+    z-index:-1;
 }
 .header-info h1{
  color:white;
  text-transform:uppercase;
+}
+.header-info{
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #0e0d0d ;
+    background:rgba(0, 0, 0, 0.651);
 }

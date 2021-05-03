@@ -1,12 +1,13 @@
 import React from 'react';
 import './Header.css';
 import Typed from 'react-typed';
-import Particles from 'react-particles-js';
+import ParticlesBg from 'particles-bg'
 const Header = () => {
     return (
         <div className="header-container" >
-            
-        <div className="header-info">
+           <ParticlesBg color="black" num={200} type="cobweb" bg={true} />
+      <div className="d-flex justify-content-center align-items-center w-100">
+      <div className="header-info w-50 p-5 mt-5 ">
         <h1  >Hi ,<br/> this is Ashik</h1> 
         <Typed
                     className="text-white"
@@ -18,6 +19,7 @@ const Header = () => {
                 <br/>
                
         </div>
+      </div>
        
         </div>
     );
