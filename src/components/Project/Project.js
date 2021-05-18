@@ -43,7 +43,7 @@ const Project = () => {
                             </div>
                             <div className="card-text mt-5">
 
-                            <a className="m-3 text-decoration-none text-dark " href="https://fresh-valley-c3e36.web.app/" target="_blank">live link</a>
+                            <a className="m-3 text-decoration-none text-dark " href="https://fresh-valley-c3e36.web.app/" target="_blank">Live link</a>
                             <a className="m-3" href="https://github.com/ashikprodhan/fresh-valley" target="_blank"  ><FontAwesomeIcon icon={faGithub} /> </a>
                         
                             </div>
@@ -111,7 +111,7 @@ User able to buy service from this site through stripe payment.  Here admin can 
                             </div>
                             <div className="card-text mt-5">
 
-                            <a className="m-3 text-decoration-none text-dark " href="https://city-travellers.web.app/" target="_blank">live link</a>
+                            <a className="m-3 text-decoration-none text-dark " href="https://city-travellers.web.app/" target="_blank">Live link</a>
                             <a className="m-3" href="https://github.com/ashikprodhan/city-traveller" target="_blank"  ><FontAwesomeIcon icon={faGithub} /> </a>
                         
                             </div>
