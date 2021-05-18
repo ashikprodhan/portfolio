@@ -18,7 +18,7 @@ const Contact = () => {
       }
     
       return (
-        <div className="container custom-form contact-form">
+        <div id="contact" className="container custom-form contact-form">
         <h4 className=" p-5">Contact Me </h4>
                   <form  onSubmit={sendEmail}>
         

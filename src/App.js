@@ -12,32 +12,19 @@ import {
 import Particles from 'react-particles-js';
 import Home from './components/About/About';
 import About from './components/About/About';
+import Header from './components/Header/Header';
+import Skills from './components/Skills/Skills';
+import Project from './components/Project/Project';
+import Contact from './components/Contact/Contact';
 function App() {
   return (
     <div className="App">
-     
-      <Router>
-        <Switch>
-          <Route>
-          <Particles
-                params={{
-                    polygon: {
-                        enable: true,
-                        type: 'inside',
-                        move: {
-                            radius: 10
-                        },
-                        url: 'path/to/svg.svg'
-                    }
-                }} />
-            <Navbar></Navbar>
-          </Route>
-          <Route to="home">
-            <About></About>
-          </Route>
-        </Switch>
-      </Router>
-
+     <Navbar></Navbar>
+     <Header></Header>
+            <Home></Home>
+            <Skills></Skills>
+            <Project></Project>
+            <Contact></Contact>
     </div>
   );
 }

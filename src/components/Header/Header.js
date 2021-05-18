@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 import ParticlesBg from 'particles-bg'
 const Header = () => {
     return (
-        <div className="header-container" >
+        <div id="home" className="header-container" >
            <ParticlesBg color="black" num={200} type="cobweb" bg={true} />
       <div className="d-flex justify-content-center align-items-center w-100">
       <div className="header-info w-50 p-5 mt-5 ">

@@ -13,52 +13,26 @@ const Navbar = () => {
 
 <nav className="navbar navbar-expand-lg navbar-light bg-dark">
   <div className="container-fluid">
-    <a className="navbar-brand text-white" href="#">Navbar</a>
+    <a className="navbar-brand text-white" href="#">Ashik</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav ms-auto">
-        <a className="nav-link text-white active" aria-current="page" href="#">Home</a>
+        <a className="nav-link text-white active" aria-current="page" href="#home">Home</a>
         <a className="nav-link text-white" href="#project">projects</a>
         <a className="nav-link text-white" href="#skill">skills</a>
-        <a className="nav-link text-white" href="#">contact</a>
-        <a className="nav-link text-white" href="#">blogs</a>
-        <a className="nav-link text-white" href="#">about </a>
+        <a className="nav-link text-white" href="#contact">contact</a>
+        <a className="nav-link text-white" href="#blog">blogs</a>
+        <a className="nav-link text-white" href="#about">about </a>
       
       </div>
     </div>
   </div>
 </nav>
            
-            {/* <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-                <div className="container-fluid">
-                    <Link to="/home" className="navbar-brand text-white">My portfolio</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav ms-auto">
-                            
-                            <Link to="/" className="nav-link active text-white" aria-current="page">Home</Link>
-                            <Link to="/about" className="nav-link active text-white">About</Link>
-                            <Link to="/skill" className="nav-link active text-white">skill</Link>
-                      
-                            <Link to="/blogs" className="nav-link active text-white">Blogs</Link>
-                            <a href="#projects" className="nav-link active text-white">Projects</a>
-
-
-                        </div>
-                    </div>
-                </div>
-                
-
-            </nav> */}
-            <Header></Header>
-            <Home></Home>
-            <Skills></Skills>
-            <Project></Project>
-            <Contact></Contact>
+           
+            
         </div>
     );
 };

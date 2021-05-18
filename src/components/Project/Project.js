@@ -11,7 +11,7 @@ import './Project.css'
 const Project = () => {
     return (
         <div id="project" className="container">
-            <h5 className="text-center" >Projects</h5>
+            <h2 className="text-center mt-5 mb-3" >Projects</h2>
             <div className="row">
                
                
@@ -20,7 +20,7 @@ const Project = () => {
                         <img src={freshMart} alt=""/>
                         <div className="card-body">
                             <h5 className="card-title">Fresh valley</h5>
-                            <p className="card-text">This travelling site .Once you click on the vehicle it will take you to destination page .It has firebase authentication .If you are logged in only you can see destination page .In destination page you will see travel fare ,photo of vehicle and google map</p>
+                            <p className="card-text"> This full-stack website .You add product and delete the product .. I use here mongodb database to store data .User order information will be save on database .From orders page can see the number of orders and order details.This site got firebase authentication for login and got private route. </p>
                             
                            
                         </div>
@@ -44,7 +44,7 @@ const Project = () => {
                             <div className="card-text mt-5">
 
                             <a className="m-3 text-decoration-none text-dark " href="https://fresh-valley-c3e36.web.app/" target="_blank">live link</a>
-                            <a className="m-3" href="https://github.com/Porgramming-Hero-web-course/react-auth-ashikprodhan" target="_blank"  ><FontAwesomeIcon icon={faGithub} /> </a>
+                            <a className="m-3" href="https://github.com/ashikprodhan/fresh-valley" target="_blank"  ><FontAwesomeIcon icon={faGithub} /> </a>
                         
                             </div>
                         </div>
@@ -56,7 +56,8 @@ const Project = () => {
                         <img src={mobilerepair} alt=""/>
                         <div className="card-body">
                             <h5 className="card-title">Mobile repair</h5>
-                            <p className="card-text">This travelling site .Once you click on the vehicle it will take you to destination page .It has firebase authentication .If you are logged in only you can see destination page .In destination page you will see travel fare ,photo of vehicle and google map</p>
+                            <p className="card-text">This website got landing home page which consist of header, service card, contact form ,footer, review ,why us page. In service card have price service name and button. This site got some restriction normal user can not see all orders while admin only can see all the orders,add services, delete services.
+User able to buy service from this site through stripe payment.  Here admin can add service ,delete the service and can the all the orders .This site also got firebase authentication and private route .React spring used here on the card for animation.</p>
                             
                            
                         </div>
@@ -78,8 +79,8 @@ const Project = () => {
                             </div>
                             <div className="card-text mt-5">
 
-                            <a className="m-3 text-decoration-none text-dark " href="https://city-travellers.web.app/" target="_blank">live link</a>
-                            <a className="m-3" href="https://github.com/Porgramming-Hero-web-course/react-auth-ashikprodhan" target="_blank"  ><FontAwesomeIcon icon={faGithub} /> </a>
+                            <a className="m-3 text-decoration-none text-dark " href="https://mobile-repair-44845.web.app/" target="_blank">Live link</a>
+                            <a className="m-3" href="https://github.com/ashikprodhan/mobile-repair" target="_blank"  ><FontAwesomeIcon icon={faGithub} /> </a>
                         
                             </div>
                         </div>
@@ -111,7 +112,7 @@ const Project = () => {
                             <div className="card-text mt-5">
 
                             <a className="m-3 text-decoration-none text-dark " href="https://city-travellers.web.app/" target="_blank">live link</a>
-                            <a className="m-3" href="https://github.com/Porgramming-Hero-web-course/react-auth-ashikprodhan" target="_blank"  ><FontAwesomeIcon icon={faGithub} /> </a>
+                            <a className="m-3" href="https://github.com/ashikprodhan/city-traveller" target="_blank"  ><FontAwesomeIcon icon={faGithub} /> </a>
                         
                             </div>
                         </div>

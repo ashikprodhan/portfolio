@@ -6,14 +6,15 @@ import Button from "react-bootstrap/Button";
 import ashik from '../../images/ashik.jpg'
 const About = () => {
     return (
-        <div>
+        <div id="about">
             <div className="row">
                 <div className="col-md-6">
                    <img style={{width:'300px'}} src={ashik} alt=""/> 
                 </div>
                 <div className="col-md-6 mt-5">
                     <h1>This is Ashik</h1>
-                    <p>I am react developer <br/> </p>
+                    <p>A self-motivated, hardworking student in IT, I seek an internship position at big Company that will allow
+me to explore career options and learn new technical skill in web development . I have completed advanced projects in React js  . </p>
                     
                </div>
             </div>
