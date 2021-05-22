@@ -13,8 +13,8 @@ const About = () => {
                 </div>
                 <div className="col-md-6 mt-5">
                     <h1>This is Ashik</h1>
-                    <p>A self-motivated, hardworking student in IT, I seek an internship position at big Company that will allow
-me to explore career options and learn new technical skill in web development . I have completed advanced projects in React js  . </p>
+                    <p>A self-motivated, hardworking student in IT, I seek an internship position at IT Company that will allow
+me to explore career options and learn new technical skill in web development . I have completed intermediate projects in React js  . </p>
                     
                </div>
             </div>
@@ -35,7 +35,7 @@ me to explore career options and learn new technical skill in web development . 
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/abubakar-siddik-ashik-98b90011a/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/ashik-prodhan-98b90011a/" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         LinkedIn
                       </Button>
