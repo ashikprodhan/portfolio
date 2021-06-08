@@ -12,7 +12,7 @@ const About = () => {
                    <img style={{width:'300px'}} src={ashik} alt=""/> 
                 </div>
                 <div className="col-md-6 mt-5">
-                    <h1>This is Ashik</h1>
+                    {/* <h1>About me</h1> */}
                     <p>A self-motivated, hardworking student in IT, I seek an internship position at IT Company that will allow
 me to explore career options and learn new technical skill in web development . I have completed intermediate projects in React js  . </p>
                     
