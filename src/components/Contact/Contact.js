@@ -18,8 +18,9 @@ const Contact = () => {
       }
     
       return (
-        <div id="contact" className="container custom-form contact-form">
-        <h4 className=" p-5">Contact Me </h4>
+        <div id="contact" className="mt-5 container custom-form contact-form">
+        
+        <h1 className=" p-5">Contact Me </h1>
                   <form  onSubmit={sendEmail}>
         
         
@@ -40,29 +41,21 @@ const Contact = () => {
                             </div>
                             <div className="col-md-6">
                                     <div className="form-group p-1">
-                                        <textarea name="message" placeholder="Write your Query" className="form-control" style={{width:'100%',height:'150px'}} ></textarea>
+                                        <textarea name="message" placeholder="Write your Query" className="form-control" style={{width:'100%',height:'130px'}} ></textarea>
                                     </div>
-                                    <div className="form-group">
                                    
-                                   <input className="btn btn-info p-1" type="submit" value="Send" />
+                                </div>
+                                <div className="form-group p-1">
+                                   
+                                   <input className="btn btn-info p-1 blockButton" type="submit" value="Send" />
                                    {/* <input type="submit" name="btnSubmit" className="btnContact" value="Send Message" /> */}
                                </div>
-                                </div>
                         </div>
                     </form>
                 
         
         </div>
-        // <form className="contact-form" onSubmit={sendEmail}>
-        //   <input type="hidden" name="contact_number" />
-        //   <label>Name</label>
-        //   <input type="text" name="user_name" />
-        //   <label>Email</label>
-        //   <input type="email" name="user_email" />
-        //   <label>Message</label>
-        //   <textarea name="message" />
-        //   <input type="submit" value="Send" />
-        // </form>
+        
       );
 };
 

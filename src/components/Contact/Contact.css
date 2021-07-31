@@ -47,7 +47,19 @@
     border-radius: 1rem;
     padding: 1.5%;
     color: #fff;
-    background-color: #0062cc;
+    background-color: #5c8bbd;
     border: none;
     cursor: pointer;
+}
+.blockButton{
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius:32px;
+    /* background-color: rgb(49, 31, 31); */
+  color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
 }

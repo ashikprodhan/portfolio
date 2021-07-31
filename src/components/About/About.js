@@ -7,18 +7,15 @@ import ashik from '../../images/ashik.jpg'
 const About = () => {
     return (
         <div id="about">
-            <div className="row">
+            <div className="row mt-5">
                 <div className="col-md-6">
-                   <img style={{width:'300px'}} src={ashik} alt=""/> 
+                   <img className="rounded-circle" style={{width:'11.5em' ,height:"11.5em"}} src={ashik} alt=""/> 
                 </div>
-                <div className="col-md-6 mt-5">
+                <div className="col-md-6 " style={{paddingRight:'100px'}}>
                     {/* <h1>About me</h1> */}
                     <p>A self-motivated, hardworking student in IT, I seek an internship position at IT Company that will allow
 me to explore career options and learn new technical skill in web development . I have completed intermediate projects in React js  . </p>
-                    
-               </div>
-            </div>
-            <Col className="d-flex justify-content-center flex-wrap">
+<Col className="d-flex justify-content-center flex-wrap">
                   
                   <div>
                     <a href="https://drive.google.com/file/d/1oMTO_33aw2UT0EgLhllz3cDJk0XkIdnw/view?usp=sharing" target="_blank" rel="noopener noreferrer">
@@ -42,6 +39,9 @@ me to explore career options and learn new technical skill in web development . 
                     </a>
                   </div>
                 </Col>
+               </div>
+            </div>
+           
         </div>
     );
 };

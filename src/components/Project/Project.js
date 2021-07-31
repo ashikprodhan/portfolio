@@ -11,7 +11,7 @@ import './Project.css'
 const Project = () => {
     return (
         <div id="project" className="container">
-            <h2 className="text-center mt-5 mb-3" >Projects</h2>
+            <h1 className="text-center mt-5 mb-3" >Projects</h1>
             <div className="row">
                
                
