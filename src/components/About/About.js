@@ -13,8 +13,7 @@ const About = () => {
                 </div>
                 <div className="col-md-6 " style={{paddingRight:'100px'}}>
                     {/* <h1>About me</h1> */}
-                    <p>A self-motivated, hardworking student in IT, I seek an internship position at IT Company that will allow
-me to explore career options and learn new technical skill in web development . I have completed intermediate projects in React js  . </p>
+                    <p>A highly detail-oriented, data-driven individual, I seek an apprenticeship for digital marketing position at your company that will allow me to explore career option in digital marketing .  </p>
 <Col className="d-flex justify-content-center flex-wrap">
                   
                   <div>

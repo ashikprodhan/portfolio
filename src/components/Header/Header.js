@@ -12,7 +12,7 @@ const Header = () => {
         <h1  >Hi,<br/> this is Ashik</h1> 
         <Typed
                     className="text-white"
-                    strings={['I am developer','I am designer','I am fast Learner']}
+                    strings={['I am Marketer','I am Promoter','I am Developer','I am fast Learner']}
                     typeSpeed={40}
                     backSpeed={50}
                     loop
